@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body {position: relative;
     font-size: 15px;
 }
 
@@ -15,9 +15,8 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 100vh;
     font-family: Spartan, sans-serif;
-    font-size: clamp(.8rem, 1vw, 1.1rem);
+    font-size: clamp(.7rem, .9vw, .9rem);
     font-weight: 400;
 }
 
@@ -55,8 +54,7 @@ main {
     align-items: center;
     flex-direction: column;
     width: 80%;
-    height: 80%;
-    padding: 7rem 1rem;
+    padding: 7rem 0;
 }
 
 .company {
